@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background-color: lightgreen;
+}
+
+#form {
+    background-color: rgba(124, 124, 124, 0.5);
+    padding: 30px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    margin-top: 10px;
+}
+
+#error {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}   

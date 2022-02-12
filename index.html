@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form Validator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="error"></div>
+            <form action="/" method="GET" id="form">
+                <div>
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" required>
+                </div>
+                <div>
+                    <label for="name">Password</label>
+                    <input id="password" name="password" type="password">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
